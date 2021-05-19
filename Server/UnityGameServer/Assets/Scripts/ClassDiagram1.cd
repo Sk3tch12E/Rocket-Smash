@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Client.TCP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Client.UDP" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Client.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQCQAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAAAAAIgA=</HashCode>
+      <FileName>Assets\Scripts\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkManager">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACAAAAAAAAAAAAAAAABAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\NetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAwAACAAFAAAAAAYAABAAIAAAUAAIABAgAFAAQA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Player">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICQAAAAAAuAEBQWIAAAIIAEADBCAABTJCAAQAAgQAiE=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rocket">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACAAAiAAAQAEAAAAAgAAAAAAAQAJAAAgAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Server.PacketHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Server.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAAAAAAAgCABgEQAAIAAAMAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerHandle">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\ServerHandle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerSend">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAKIAAQgAAAAAAQABAAAABCAgAAKAAAQA=</HashCode>
+      <FileName>Assets\Scripts\ServerSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadManager">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgBAAAQAAAAAAQAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ThreadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ServerPackets">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQgAAAAAEAAAQgAAAAAAAAAAAAAAAEAJAIAAgIA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClientPackets">
+    <Position X="15.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
